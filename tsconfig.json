@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./bundle/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "es5",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "lib": ["dom", "esnext"],
+        "module": "esnext",
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules"]
+}
